@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="MPSProject">
-    <projectModules />
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/SM7.test/SM7.test.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/SM7/SM7.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/SM7/runtime/SM7.runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/SM7.test.interpreter/SM7.test.interpreter.msd" folder="" />
+    </projectModules>
   </component>
 </project>
