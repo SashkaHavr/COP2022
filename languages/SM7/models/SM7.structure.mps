@@ -72,9 +72,6 @@
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="FunctionalScope" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="PrWs8" id="178fcaRefUA" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
     <node concept="1TJgyj" id="178fcaRefUB" role="1TKVEi">
       <property role="IQ2ns" value="1281340900982193831" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
