@@ -3,7 +3,6 @@
   <persistence version="9" />
   <languages>
     <use id="ddabd02b-5554-431e-9b80-620b2c2789f9" name="SM7" version="0" />
-    <use id="09f2d56a-1add-48f3-b93f-cc4c2182ede6" name="SM7.test" version="0" />
   </languages>
   <imports />
   <registry>
