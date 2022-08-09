@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:1369522a-f753-4630-af6d-cf0a1d0ad07b(SM7.runtime)">
+<model ref="r:1369522a-f753-4630-af6d-cf0a1d0ad07b(yelysandr.runtime)">
   <persistence version="9" />
   <languages>
-    <use id="ddabd02b-5554-431e-9b80-620b2c2789f9" name="SM7" version="0" />
+    <use id="ddabd02b-5554-431e-9b80-620b2c2789f9" name="yelysandr" version="0" />
   </languages>
   <imports />
   <registry>
-    <language id="ddabd02b-5554-431e-9b80-620b2c2789f9" name="SM7">
-      <concept id="1281340900982193806" name="SM7.structure.BooleanDefinition" flags="ng" index="2AWc9c">
+    <language id="ddabd02b-5554-431e-9b80-620b2c2789f9" name="yelysandr">
+      <concept id="1281340900982193806" name="yelysandr.structure.BooleanDefinition" flags="ng" index="2AWc9c">
         <child id="4422710142936408933" name="value" index="1VnnKk" />
       </concept>
-      <concept id="1281340900982193829" name="SM7.structure.FunctionalScope" flags="ng" index="2AWc9B">
+      <concept id="1281340900982193829" name="yelysandr.structure.FunctionalScope" flags="ng" index="2AWc9B">
         <child id="1281340900982193831" name="statements" index="2AWc9_" />
       </concept>
-      <concept id="1281340900982193781" name="SM7.structure.IntDefinition" flags="ng" index="2AWcaR">
+      <concept id="1281340900982193781" name="yelysandr.structure.IntDefinition" flags="ng" index="2AWcaR">
         <child id="4422710142936408929" name="value" index="1VnnKg" />
       </concept>
-      <concept id="4422710142936414059" name="SM7.structure.BooleanLiteral" flags="ng" index="1Vnmwq">
+      <concept id="4422710142936414059" name="yelysandr.structure.BooleanLiteral" flags="ng" index="1Vnmwq">
         <property id="4422710142936417049" name="value" index="1VnDLC" />
       </concept>
-      <concept id="4422710142936408924" name="SM7.structure.IntLiteral" flags="ng" index="1VnnKH">
+      <concept id="4422710142936408924" name="yelysandr.structure.IntLiteral" flags="ng" index="1VnnKH">
         <property id="4422710142936408925" name="value" index="1VnnKG" />
       </concept>
-      <concept id="4422710142936436449" name="SM7.structure.EmptyStatement" flags="ng" index="1VnH6g" />
+      <concept id="4422710142936436449" name="yelysandr.structure.EmptyStatement" flags="ng" index="1VnH6g" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">

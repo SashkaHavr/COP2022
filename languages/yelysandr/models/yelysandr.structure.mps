@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:4d41464a-b30b-41d8-9572-fb5f5a116c3d(SM7.structure)">
+<model ref="r:4d41464a-b30b-41d8-9572-fb5f5a116c3d(yelysandr.structure)">
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
@@ -76,7 +76,7 @@
     <property role="TrG5h" value="FunctionalScope" />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="FunctionalScope" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="178fcaRefUB" role="1TKVEi">
       <property role="IQ2ns" value="1281340900982193831" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -89,7 +89,7 @@
     <property role="EcuMT" value="4422710142936408918" />
     <property role="TrG5h" value="Statement" />
     <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="3PwBR56fudn">
     <property role="EcuMT" value="4422710142936408919" />

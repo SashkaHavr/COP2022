@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="SM7" uuid="ddabd02b-5554-431e-9b80-620b2c2789f9" languageVersion="0" moduleVersion="0">
+<language namespace="yelysandr" uuid="ddabd02b-5554-431e-9b80-620b2c2789f9" languageVersion="0" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -12,7 +12,7 @@
   </facets>
   <accessoryModels />
   <generators>
-    <generator alias="main" namespace="SM7.generator" uuid="dff2214a-2bd2-4218-807e-231e5a59e5fe">
+    <generator alias="main" namespace="yelysandr" uuid="dff2214a-2bd2-4218-807e-231e5a59e5fe">
       <models>
         <modelRoot contentPath="${module}/generator" type="default">
           <sourceRoot location="templates" />
@@ -47,10 +47,10 @@
         <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
         <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
         <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
-        <module reference="ddabd02b-5554-431e-9b80-620b2c2789f9(SM7)" version="0" />
-        <module reference="dff2214a-2bd2-4218-807e-231e5a59e5fe(SM7.generator)" version="0" />
-        <module reference="4e9081f6-ef62-4e45-8efe-882499d2d367(SM7.runtime)" version="0" />
         <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
+        <module reference="dff2214a-2bd2-4218-807e-231e5a59e5fe(yelysandr)" version="0" />
+        <module reference="ddabd02b-5554-431e-9b80-620b2c2789f9(yelysandr)" version="0" />
+        <module reference="4e9081f6-ef62-4e45-8efe-882499d2d367(yelysandr.runtime)" version="0" />
       </dependencyVersions>
       <mapping-priorities />
     </generator>
@@ -100,13 +100,13 @@
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
-    <module reference="ddabd02b-5554-431e-9b80-620b2c2789f9(SM7)" version="0" />
     <module reference="2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="a9e4c532-c5f5-4bb7-99ef-42abb73bbb70(jetbrains.mps.lang.descriptor.aspects)" version="0" />
+    <module reference="ddabd02b-5554-431e-9b80-620b2c2789f9(yelysandr)" version="0" />
   </dependencyVersions>
   <runtime>
-    <dependency reexport="false">4e9081f6-ef62-4e45-8efe-882499d2d367(SM7.runtime)</dependency>
+    <dependency reexport="false">4e9081f6-ef62-4e45-8efe-882499d2d367(yelysandr.runtime)</dependency>
   </runtime>
   <extendedLanguages />
 </language>

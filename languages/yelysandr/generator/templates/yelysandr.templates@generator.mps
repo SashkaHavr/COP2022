@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:3ee66a05-168d-49d0-a5da-9b5fa833f721(SM7.generator.templates@generator)">
+<model ref="r:3ee66a05-168d-49d0-a5da-9b5fa833f721(yelysandr.templates@generator)">
   <persistence version="9" />
   <languages>
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="4" />
@@ -152,7 +152,7 @@
                   <node concept="2OqwBi" id="3PwBR56dAF3" role="3clFbG">
                     <node concept="30H73N" id="3PwBR56dAh2" role="2Oq$k0" />
                     <node concept="3Tsc0h" id="3PwBR56dBpq" role="2OqNvi">
-                      <ref role="3TtcxE" to="2ho0:178fcaRefUB" resolve="contents" />
+                      <ref role="3TtcxE" to="2ho0:178fcaRefUB" resolve="statements" />
                     </node>
                   </node>
                 </node>
