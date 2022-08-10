@@ -50,16 +50,18 @@
   <node concept="1TIwiD" id="178fcaRefU_">
     <property role="EcuMT" value="1281340900982193829" />
     <property role="TrG5h" value="FunctionalScope" />
-    <property role="19KtqR" value="true" />
     <property role="34LRSv" value="FunctionalScope" />
     <property role="3GE5qa" value="Statements" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="3PwBR56fudm" resolve="Statement" />
     <node concept="1TJgyj" id="178fcaRefUB" role="1TKVEi">
       <property role="IQ2ns" value="1281340900982193831" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="statements" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="3PwBR56fudm" resolve="Statement" />
+    </node>
+    <node concept="PrWs8" id="6qqmFOi7ZJU" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="3PwBR56fudm">
@@ -189,6 +191,36 @@
     <property role="TrG5h" value="VarType" />
     <property role="34LRSv" value="var" />
     <ref role="1TJDcQ" node="60ka_aiofdE" resolve="Type" />
+  </node>
+  <node concept="1TIwiD" id="6qqmFOi8DhV">
+    <property role="EcuMT" value="7393321506381665403" />
+    <property role="3GE5qa" value="Expressions" />
+    <property role="TrG5h" value="VariableReference" />
+    <ref role="1TJDcQ" node="3PwBR56fudn" resolve="Expression" />
+    <node concept="1TJgyj" id="6qqmFOi8DhW" role="1TKVEi">
+      <property role="IQ2ns" value="7393321506381665404" />
+      <property role="20kJfa" value="variableDefinition" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3PwBR56fudp" resolve="VariableDefinition" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6qqmFOi9YBN">
+    <property role="EcuMT" value="7393321506382014963" />
+    <property role="3GE5qa" value="Statements" />
+    <property role="TrG5h" value="FunctionalWorksheet" />
+    <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="Worksheet" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="6qqmFOi9YBO" role="1TKVEi">
+      <property role="IQ2ns" value="7393321506382014964" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="baseScope" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="178fcaRefU_" resolve="FunctionalScope" />
+    </node>
+    <node concept="PrWs8" id="6qqmFOi9YBQ" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
 </model>
 
