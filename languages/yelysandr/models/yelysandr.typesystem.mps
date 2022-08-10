@@ -343,7 +343,7 @@
   </node>
   <node concept="1YbPZF" id="1TJtwuF2g5t">
     <property role="TrG5h" value="typeof_BinaryExpression" />
-    <property role="3GE5qa" value="Expressions.BinaryExpressions" />
+    <property role="3GE5qa" value="Expressions.Binary" />
     <node concept="3clFbS" id="1TJtwuF2g5u" role="18ibNy">
       <node concept="nvevp" id="1TJtwuF2g5$" role="3cqZAp">
         <node concept="3clFbS" id="1TJtwuF2g5_" role="nvhr_">
@@ -488,7 +488,7 @@
     </node>
   </node>
   <node concept="3hdX5o" id="1TJtwuF2$jm">
-    <property role="3GE5qa" value="Expressions.BinaryExpressions" />
+    <property role="3GE5qa" value="Expressions.Binary" />
     <property role="TrG5h" value="BinaryExpressionsOperationsRules" />
     <node concept="3ciAk0" id="1TJtwuF2$lp" role="3he0YX">
       <node concept="3gn64h" id="1TJtwuF2$ls" role="32tDTA">

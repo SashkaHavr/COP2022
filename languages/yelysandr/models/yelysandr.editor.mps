@@ -229,7 +229,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="1TJtwuF1i8I">
-    <property role="3GE5qa" value="Expressions.BinaryExpressions" />
+    <property role="3GE5qa" value="Expressions.Binary" />
     <ref role="1XX52x" to="2ho0:1TJtwuF1i8x" resolve="BinaryExpression" />
     <node concept="3EZMnI" id="1TJtwuF1i8K" role="2wV5jI">
       <node concept="1kIj98" id="1TJtwuF1lqO" role="3EZMnx">
