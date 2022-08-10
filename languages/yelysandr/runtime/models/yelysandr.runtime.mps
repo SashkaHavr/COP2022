@@ -26,6 +26,7 @@
       <concept id="4422710142936408924" name="yelysandr.structure.IntLiteral" flags="ng" index="1VnnKH">
         <property id="6923205061307212275" name="value" index="3MsKIx" />
       </concept>
+      <concept id="4422710142936436449" name="yelysandr.structure.EmptyStatement" flags="ng" index="1VnH6g" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -114,6 +115,18 @@
           <property role="3MsKIx" value="531123" />
         </node>
       </node>
+    </node>
+    <node concept="1VnH6g" id="1Rc8r$bFr4T" role="2AWc9_" />
+    <node concept="2Pqy4i" id="1Rc8r$bFphR" role="2AWc9_">
+      <node concept="1VnnKH" id="1Rc8r$bFpi$" role="2Pq_g_">
+        <property role="3MsKIx" value="32" />
+      </node>
+      <node concept="1VnnKH" id="1Rc8r$bFpiN" role="2Pq_gz">
+        <property role="3MsKIx" value="21" />
+      </node>
+    </node>
+    <node concept="1Vnmwq" id="1Rc8r$bFr3h" role="2AWc9_">
+      <property role="3MsKIR" value="false" />
     </node>
   </node>
 </model>

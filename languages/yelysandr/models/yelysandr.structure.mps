@@ -88,7 +88,7 @@
     <property role="TrG5h" value="Expression" />
     <property role="R5$K7" value="true" />
     <property role="3GE5qa" value="Expressions" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="3PwBR56fudm" resolve="Statement" />
   </node>
   <node concept="1TIwiD" id="3PwBR56fudp">
     <property role="EcuMT" value="4422710142936408921" />
@@ -140,7 +140,7 @@
     <property role="TrG5h" value="Type" />
     <property role="3GE5qa" value="Types" />
     <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="60ka_aiofdF">
     <property role="EcuMT" value="6923205061306807147" />
