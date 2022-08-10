@@ -34,10 +34,6 @@
       <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
         <reference id="1078939183255" name="editorComponent" index="PMmxG" />
       </concept>
-      <concept id="1186403694788" name="jetbrains.mps.lang.editor.structure.ColorStyleClassItem" flags="ln" index="VaVBg">
-        <property id="1186403713874" name="color" index="Vb096" />
-      </concept>
-      <concept id="1186404549998" name="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" flags="ln" index="VechU" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
@@ -184,13 +180,12 @@
     </node>
   </node>
   <node concept="24kQdi" id="60ka_aio3iN">
-    <property role="3GE5qa" value="Statements.Definitions" />
+    <property role="3GE5qa" value="Statements" />
     <ref role="1XX52x" to="2ho0:3PwBR56fudp" resolve="VariableDefinition" />
     <node concept="3EZMnI" id="60ka_aio3jf" role="2wV5jI">
-      <node concept="PMmxH" id="60ka_aio3jp" role="3EZMnx">
-        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-        <node concept="VechU" id="60ka_aio3kg" role="3F10Kt">
-          <property role="Vb096" value="fLwANPu/blue" />
+      <node concept="1kIj98" id="1Rc8r$bGuDy" role="3EZMnx">
+        <node concept="3F1sOY" id="1Rc8r$bGuDF" role="1kIj9b">
+          <ref role="1NtTu8" to="2ho0:1Rc8r$bFsf9" resolve="declaredType" />
         </node>
       </node>
       <node concept="3F0A7n" id="60ka_aio3ju" role="3EZMnx">
@@ -261,6 +256,18 @@
         </node>
       </node>
     </node>
+  </node>
+  <node concept="24kQdi" id="1Rc8r$bG4pI">
+    <property role="3GE5qa" value="Types" />
+    <ref role="1XX52x" to="2ho0:60ka_aiofdE" resolve="Type" />
+    <node concept="PMmxH" id="1Rc8r$bG4pV" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="22mcaB" id="1Rc8r$bGSUW">
+    <property role="3GE5qa" value="Statements" />
+    <ref role="aqKnT" to="2ho0:3PwBR56fudp" resolve="VariableDefinition" />
+    <node concept="22hDWj" id="1Rc8r$bGSUX" role="22hAXT" />
   </node>
 </model>
 

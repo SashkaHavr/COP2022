@@ -47,20 +47,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="1TIwiD" id="178fcaRefTP">
-    <property role="EcuMT" value="1281340900982193781" />
-    <property role="TrG5h" value="IntDefinition" />
-    <property role="34LRSv" value="int" />
-    <property role="3GE5qa" value="Statements.Definitions" />
-    <ref role="1TJDcQ" node="3PwBR56fudp" resolve="VariableDefinition" />
-  </node>
-  <node concept="1TIwiD" id="178fcaRefUe">
-    <property role="EcuMT" value="1281340900982193806" />
-    <property role="TrG5h" value="BoolDefinition" />
-    <property role="34LRSv" value="bool" />
-    <property role="3GE5qa" value="Statements.Definitions" />
-    <ref role="1TJDcQ" node="3PwBR56fudp" resolve="VariableDefinition" />
-  </node>
   <node concept="1TIwiD" id="178fcaRefU_">
     <property role="EcuMT" value="1281340900982193829" />
     <property role="TrG5h" value="FunctionalScope" />
@@ -93,8 +79,7 @@
   <node concept="1TIwiD" id="3PwBR56fudp">
     <property role="EcuMT" value="4422710142936408921" />
     <property role="TrG5h" value="VariableDefinition" />
-    <property role="R5$K7" value="true" />
-    <property role="3GE5qa" value="Statements.Definitions" />
+    <property role="3GE5qa" value="Statements" />
     <ref role="1TJDcQ" node="3PwBR56fudm" resolve="Statement" />
     <node concept="PrWs8" id="3PwBR56fudq" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -105,6 +90,13 @@
       <property role="20kJfa" value="value" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="3PwBR56fudn" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="1Rc8r$bFsf9" role="1TKVEi">
+      <property role="IQ2ns" value="2147128200997487561" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="declaredType" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="60ka_aiofdE" resolve="Type" />
     </node>
   </node>
   <node concept="1TIwiD" id="3PwBR56fuds">
@@ -146,12 +138,14 @@
     <property role="EcuMT" value="6923205061306807147" />
     <property role="3GE5qa" value="Types" />
     <property role="TrG5h" value="BoolType" />
+    <property role="34LRSv" value="bool" />
     <ref role="1TJDcQ" node="60ka_aiofdE" resolve="Type" />
   </node>
   <node concept="1TIwiD" id="60ka_aiofdG">
     <property role="EcuMT" value="6923205061306807148" />
     <property role="3GE5qa" value="Types" />
     <property role="TrG5h" value="IntType" />
+    <property role="34LRSv" value="int" />
     <ref role="1TJDcQ" node="60ka_aiofdE" resolve="Type" />
   </node>
   <node concept="1TIwiD" id="1TJtwuF1i8x">
@@ -188,6 +182,13 @@
     <property role="TrG5h" value="PlusBinaryExpression" />
     <property role="34LRSv" value="+" />
     <ref role="1TJDcQ" node="1TJtwuF1lsk" resolve="ArithmeticBinaryExpression" />
+  </node>
+  <node concept="1TIwiD" id="1Rc8r$bHXtN">
+    <property role="EcuMT" value="2147128200998147955" />
+    <property role="3GE5qa" value="Types" />
+    <property role="TrG5h" value="VarType" />
+    <property role="34LRSv" value="var" />
+    <ref role="1TJDcQ" node="60ka_aiofdE" resolve="Type" />
   </node>
 </model>
 
