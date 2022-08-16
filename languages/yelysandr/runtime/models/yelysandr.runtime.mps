@@ -16,6 +16,10 @@
         <child id="2193101318858809892" name="right" index="2Pq_gz" />
         <child id="2193101318858809890" name="left" index="2Pq_g_" />
       </concept>
+      <concept id="3333865278252136094" name="yelysandr.structure.IfStatement" flags="ng" index="2TvB9g">
+        <child id="3333865278252142692" name="condition" index="2TvxiE" />
+        <child id="3333865278252136697" name="scope" index="2TvBKR" />
+      </concept>
       <concept id="316997091368920873" name="yelysandr.structure.AndBinaryExpression" flags="ng" index="3lx_g5" />
       <concept id="316997091368990883" name="yelysandr.structure.UnaryExpression" flags="ng" index="3lxOIf">
         <child id="316997091368990884" name="var" index="3lxOI8" />
@@ -41,6 +45,7 @@
       <concept id="4422710142936408924" name="yelysandr.structure.IntLiteral" flags="ng" index="1VnnKH">
         <property id="6923205061307212275" name="value" index="3MsKIx" />
       </concept>
+      <concept id="4422710142936436449" name="yelysandr.structure.EmptyStatement" flags="ng" index="1VnH6g" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -197,6 +202,28 @@
       </node>
       <node concept="3lxU9e" id="hAcMNhX_NG" role="2AWc9_">
         <node concept="1Vnmwq" id="hAcMNhX_Pa" role="3lxOI8">
+          <property role="3MsKIR" value="false" />
+        </node>
+      </node>
+      <node concept="1VnH6g" id="2T4hcUnfpls" role="2AWc9_" />
+      <node concept="2TvB9g" id="2T4hcUnisCc" role="2AWc9_">
+        <node concept="2AWc9B" id="2T4hcUnisCe" role="2TvBKR">
+          <node concept="1VnnKC" id="2T4hcUnisNt" role="2AWc9_">
+            <property role="TrG5h" value="test4" />
+            <node concept="3Mtd$Y" id="2T4hcUnisNs" role="mou9K" />
+            <node concept="1VnnKH" id="2T4hcUnit1L" role="3Mt1VS">
+              <property role="3MsKIx" value="2" />
+            </node>
+          </node>
+          <node concept="1VnnKC" id="2T4hcUnitld" role="2AWc9_">
+            <property role="TrG5h" value="adasdasd" />
+            <node concept="3Mtd$T" id="2T4hcUnitlb" role="mou9K" />
+            <node concept="1OIcV6" id="2T4hcUnitzz" role="3Mt1VS">
+              <ref role="1OIcV1" node="6qqmFOiaIRH" resolve="t" />
+            </node>
+          </node>
+        </node>
+        <node concept="1Vnmwq" id="2T4hcUnisIr" role="2TvxiE">
           <property role="3MsKIR" value="false" />
         </node>
       </node>

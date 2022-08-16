@@ -791,5 +791,36 @@
       <ref role="1YaFvo" to="2ho0:hAcMNhSp5v" resolve="BooleanUnaryExpression" />
     </node>
   </node>
+  <node concept="1YbPZF" id="2T4hcUneDOr">
+    <property role="TrG5h" value="typeof_IfStatement" />
+    <property role="3GE5qa" value="Statements" />
+    <node concept="3clFbS" id="2T4hcUneDOs" role="18ibNy">
+      <node concept="1Z5TYs" id="2T4hcUneEJv" role="3cqZAp">
+        <node concept="mw_s8" id="2T4hcUneFcC" role="1ZfhKB">
+          <node concept="2pJPEk" id="2T4hcUneFc$" role="mwGJk">
+            <node concept="2pJPED" id="2T4hcUneFcA" role="2pJPEn">
+              <ref role="2pJxaS" to="2ho0:60ka_aiofdF" resolve="BoolType" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="2T4hcUneEJy" role="1ZfhK$">
+          <node concept="1Z2H0r" id="2T4hcUneF0D" role="mwGJk">
+            <node concept="2OqwBi" id="2T4hcUneF9t" role="1Z2MuG">
+              <node concept="1YBJjd" id="2T4hcUneF0W" role="2Oq$k0">
+                <ref role="1YBMHb" node="2T4hcUneDOu" resolve="ifStatement" />
+              </node>
+              <node concept="3TrEf2" id="2T4hcUneFcb" role="2OqNvi">
+                <ref role="3Tt5mk" to="2ho0:2T4hcUne_1$" resolve="condition" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="2T4hcUneDOu" role="1YuTPh">
+      <property role="TrG5h" value="ifStatement" />
+      <ref role="1YaFvo" to="2ho0:2T4hcUnezqu" resolve="IfStatement" />
+    </node>
+  </node>
 </model>
 
