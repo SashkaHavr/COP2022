@@ -539,6 +539,58 @@
         </node>
       </node>
     </node>
+    <node concept="3ciAk0" id="hAcMNhS5Hg" role="3he0YX">
+      <node concept="2pJPEk" id="hAcMNhS6jo" role="3ciSnv">
+        <node concept="2pJPED" id="hAcMNhS6jq" role="2pJPEn">
+          <ref role="2pJxaS" to="2ho0:60ka_aiofdF" resolve="BoolType" />
+        </node>
+      </node>
+      <node concept="3gn64h" id="hAcMNhS5Hv" role="32tDTA">
+        <ref role="3gnhBz" to="2ho0:hAcMNhS5ts" resolve="BooleanBinaryExpression" />
+      </node>
+      <node concept="3ciZUL" id="hAcMNhS5H$" role="32tDT$">
+        <node concept="3clFbS" id="hAcMNhS5HD" role="2VODD2">
+          <node concept="3cpWs6" id="hAcMNhS5VZ" role="3cqZAp">
+            <node concept="2pJPEk" id="hAcMNhS6ms" role="3cqZAk">
+              <node concept="2pJPED" id="hAcMNhS6mu" role="2pJPEn">
+                <ref role="2pJxaS" to="2ho0:60ka_aiofdF" resolve="BoolType" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2pJPEk" id="hAcMNhS6fl" role="3ciSkW">
+        <node concept="2pJPED" id="hAcMNhS6fn" role="2pJPEn">
+          <ref role="2pJxaS" to="2ho0:60ka_aiofdF" resolve="BoolType" />
+        </node>
+      </node>
+    </node>
+    <node concept="3ciAk0" id="hAcMNhShWP" role="3he0YX">
+      <node concept="2pJPEk" id="hAcMNhSi0Q" role="3ciSkW">
+        <node concept="2pJPED" id="hAcMNhSi0S" role="2pJPEn">
+          <ref role="2pJxaS" to="2ho0:60ka_aiofdG" resolve="IntType" />
+        </node>
+      </node>
+      <node concept="2pJPEk" id="hAcMNhSi94" role="3ciSnv">
+        <node concept="2pJPED" id="hAcMNhSi96" role="2pJPEn">
+          <ref role="2pJxaS" to="2ho0:60ka_aiofdG" resolve="IntType" />
+        </node>
+      </node>
+      <node concept="3gn64h" id="hAcMNhShX4" role="32tDTA">
+        <ref role="3gnhBz" to="2ho0:hAcMNhShmd" resolve="ComparisonBinaryExpression" />
+      </node>
+      <node concept="3ciZUL" id="hAcMNhShX9" role="32tDT$">
+        <node concept="3clFbS" id="hAcMNhShXe" role="2VODD2">
+          <node concept="3cpWs6" id="hAcMNhSic0" role="3cqZAp">
+            <node concept="2pJPEk" id="hAcMNhSigS" role="3cqZAk">
+              <node concept="2pJPED" id="hAcMNhSigU" role="2pJPEn">
+                <ref role="2pJxaS" to="2ho0:60ka_aiofdF" resolve="BoolType" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1YbPZF" id="1Rc8r$bFsfU">
     <property role="3GE5qa" value="Statements" />
@@ -643,6 +695,100 @@
     <node concept="1YaCAy" id="6qqmFOi8DiC" role="1YuTPh">
       <property role="TrG5h" value="variableReference" />
       <ref role="1YaFvo" to="2ho0:6qqmFOi8DhV" resolve="VariableReference" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="hAcMNhSpL6">
+    <property role="TrG5h" value="typeof_ArithmeticUnaryExpression" />
+    <property role="3GE5qa" value="Expressions.Unary.Arithmetic" />
+    <node concept="3clFbS" id="hAcMNhSpL7" role="18ibNy">
+      <node concept="1Z5TYs" id="hAcMNhSq3S" role="3cqZAp">
+        <node concept="mw_s8" id="hAcMNhSq4c" role="1ZfhKB">
+          <node concept="2pJPEk" id="hAcMNhSq48" role="mwGJk">
+            <node concept="2pJPED" id="hAcMNhSq4a" role="2pJPEn">
+              <ref role="2pJxaS" to="2ho0:60ka_aiofdG" resolve="IntType" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="hAcMNhSq3V" role="1ZfhK$">
+          <node concept="1Z2H0r" id="hAcMNhSpLd" role="mwGJk">
+            <node concept="1YBJjd" id="hAcMNhSpN7" role="1Z2MuG">
+              <ref role="1YBMHb" node="hAcMNhSpL9" resolve="arithmeticUnaryExpression" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1Z5TYs" id="hAcMNhSqMr" role="3cqZAp">
+        <node concept="mw_s8" id="hAcMNhSqMU" role="1ZfhKB">
+          <node concept="2pJPEk" id="hAcMNhSqMQ" role="mwGJk">
+            <node concept="2pJPED" id="hAcMNhSqMS" role="2pJPEn">
+              <ref role="2pJxaS" to="2ho0:60ka_aiofdG" resolve="IntType" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="hAcMNhSqMu" role="1ZfhK$">
+          <node concept="1Z2H0r" id="hAcMNhSq5H" role="mwGJk">
+            <node concept="2OqwBi" id="hAcMNhSqfU" role="1Z2MuG">
+              <node concept="1YBJjd" id="hAcMNhSq7K" role="2Oq$k0">
+                <ref role="1YBMHb" node="hAcMNhSpL9" resolve="arithmeticUnaryExpression" />
+              </node>
+              <node concept="3TrEf2" id="hAcMNhSqDy" role="2OqNvi">
+                <ref role="3Tt5mk" to="2ho0:hAcMNhSny$" resolve="var" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="hAcMNhSpL9" role="1YuTPh">
+      <property role="TrG5h" value="arithmeticUnaryExpression" />
+      <ref role="1YaFvo" to="2ho0:hAcMNhSp5w" resolve="ArithmeticUnaryExpression" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="hAcMNhSqOo">
+    <property role="TrG5h" value="typeof_BooleanUnaryExpression" />
+    <property role="3GE5qa" value="Expressions.Unary.Boolean" />
+    <node concept="3clFbS" id="hAcMNhSqOp" role="18ibNy">
+      <node concept="1Z5TYs" id="hAcMNhSrib" role="3cqZAp">
+        <node concept="mw_s8" id="hAcMNhSriv" role="1ZfhKB">
+          <node concept="2pJPEk" id="hAcMNhSrir" role="mwGJk">
+            <node concept="2pJPED" id="hAcMNhSrit" role="2pJPEn">
+              <ref role="2pJxaS" to="2ho0:60ka_aiofdF" resolve="BoolType" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="hAcMNhSrie" role="1ZfhK$">
+          <node concept="1Z2H0r" id="hAcMNhSqOv" role="mwGJk">
+            <node concept="1YBJjd" id="hAcMNhSr1q" role="1Z2MuG">
+              <ref role="1YBMHb" node="hAcMNhSqOr" resolve="booleanUnaryExpression" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1Z5TYs" id="hAcMNhSs3C" role="3cqZAp">
+        <node concept="mw_s8" id="hAcMNhSs47" role="1ZfhKB">
+          <node concept="2pJPEk" id="hAcMNhSs43" role="mwGJk">
+            <node concept="2pJPED" id="hAcMNhSs45" role="2pJPEn">
+              <ref role="2pJxaS" to="2ho0:60ka_aiofdF" resolve="BoolType" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="hAcMNhSs3F" role="1ZfhK$">
+          <node concept="1Z2H0r" id="hAcMNhSrk0" role="mwGJk">
+            <node concept="2OqwBi" id="hAcMNhSrvs" role="1Z2MuG">
+              <node concept="1YBJjd" id="hAcMNhSrm3" role="2Oq$k0">
+                <ref role="1YBMHb" node="hAcMNhSqOr" resolve="booleanUnaryExpression" />
+              </node>
+              <node concept="3TrEf2" id="hAcMNhSrT4" role="2OqNvi">
+                <ref role="3Tt5mk" to="2ho0:hAcMNhSny$" resolve="var" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="hAcMNhSqOr" role="1YuTPh">
+      <property role="TrG5h" value="booleanUnaryExpression" />
+      <ref role="1YaFvo" to="2ho0:hAcMNhSp5v" resolve="BooleanUnaryExpression" />
     </node>
   </node>
 </model>

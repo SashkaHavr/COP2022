@@ -43,6 +43,7 @@
         <reference id="6591946374543067572" name="conceptDeclaration" index="aqKnT" />
         <child id="5991739802479788259" name="type" index="22hAXT" />
       </concept>
+      <concept id="1233759184865" name="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" flags="ln" index="11LMrY" />
       <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
         <child id="1088186146602" name="editorComponent" index="1sWHZn" />
       </concept>
@@ -309,6 +310,33 @@
         <node concept="2iRfu4" id="6qqmFOi9YCE" role="2iSdaV" />
       </node>
       <node concept="2iRkQZ" id="6qqmFOi9YC4" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="hAcMNhSnBX">
+    <property role="3GE5qa" value="Expressions.Unary" />
+    <ref role="1XX52x" to="2ho0:hAcMNhSnyz" resolve="UnaryExpression" />
+    <node concept="3EZMnI" id="hAcMNhSnMB" role="2wV5jI">
+      <node concept="2iRfu4" id="hAcMNhSnMC" role="2iSdaV" />
+      <node concept="1Lj6DL" id="hAcMNhTdBk" role="3EZMnx">
+        <node concept="1Lj6DC" id="hAcMNhTdBm" role="1Lj8FM">
+          <node concept="3clFbS" id="hAcMNhTdBo" role="2VODD2">
+            <node concept="3clFbF" id="hAcMNhTdG6" role="3cqZAp">
+              <node concept="2OqwBi" id="hAcMNhTdZC" role="3clFbG">
+                <node concept="1Lj6YZ" id="hAcMNhTdG5" role="2Oq$k0" />
+                <node concept="3n3YKJ" id="hAcMNhTeL8" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="11LMrY" id="hAcMNhVWSb" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="1kIj98" id="hAcMNhSpth" role="3EZMnx">
+        <node concept="3F1sOY" id="hAcMNhSpto" role="1kIj9b">
+          <ref role="1NtTu8" to="2ho0:hAcMNhSny$" resolve="var" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

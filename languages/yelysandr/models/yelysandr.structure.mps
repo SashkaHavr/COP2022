@@ -222,5 +222,120 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
+  <node concept="1TIwiD" id="hAcMNhRnyF">
+    <property role="EcuMT" value="316997091368728747" />
+    <property role="3GE5qa" value="Expressions.Binary.Arithmetic" />
+    <property role="TrG5h" value="MinusBinaryExpression" />
+    <property role="34LRSv" value="-" />
+    <ref role="1TJDcQ" node="1TJtwuF1lsk" resolve="ArithmeticBinaryExpression" />
+  </node>
+  <node concept="1TIwiD" id="hAcMNhS2Od">
+    <property role="EcuMT" value="316997091368905997" />
+    <property role="3GE5qa" value="Expressions.Binary.Arithmetic" />
+    <property role="TrG5h" value="MultiplicationBinaryExpression" />
+    <property role="34LRSv" value="*" />
+    <ref role="1TJDcQ" node="1TJtwuF1lsk" resolve="ArithmeticBinaryExpression" />
+  </node>
+  <node concept="1TIwiD" id="hAcMNhS3Xz">
+    <property role="EcuMT" value="316997091368910691" />
+    <property role="3GE5qa" value="Expressions.Binary.Arithmetic" />
+    <property role="TrG5h" value="DivisionBinaryExpression" />
+    <property role="34LRSv" value="/" />
+    <ref role="1TJDcQ" node="1TJtwuF1lsk" resolve="ArithmeticBinaryExpression" />
+  </node>
+  <node concept="1TIwiD" id="hAcMNhS4J5">
+    <property role="EcuMT" value="316997091368913861" />
+    <property role="3GE5qa" value="Expressions.Binary.Arithmetic" />
+    <property role="TrG5h" value="ModuloBinaryExpression" />
+    <property role="34LRSv" value="%" />
+    <ref role="1TJDcQ" node="1TJtwuF1lsk" resolve="ArithmeticBinaryExpression" />
+  </node>
+  <node concept="1TIwiD" id="hAcMNhS5ts">
+    <property role="EcuMT" value="316997091368916828" />
+    <property role="3GE5qa" value="Expressions.Binary.Boolean" />
+    <property role="TrG5h" value="BooleanBinaryExpression" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="1TJtwuF1i8x" resolve="BinaryExpression" />
+  </node>
+  <node concept="1TIwiD" id="hAcMNhS6sD">
+    <property role="EcuMT" value="316997091368920873" />
+    <property role="3GE5qa" value="Expressions.Binary.Boolean" />
+    <property role="TrG5h" value="AndBinaryExpression" />
+    <property role="34LRSv" value="&amp;&amp;" />
+    <ref role="1TJDcQ" node="hAcMNhS5ts" resolve="BooleanBinaryExpression" />
+  </node>
+  <node concept="1TIwiD" id="hAcMNhS8rb">
+    <property role="EcuMT" value="316997091368928971" />
+    <property role="3GE5qa" value="Expressions.Binary.Boolean" />
+    <property role="TrG5h" value="OrBinaryExpression" />
+    <property role="34LRSv" value="||" />
+    <ref role="1TJDcQ" node="hAcMNhS5ts" resolve="BooleanBinaryExpression" />
+  </node>
+  <node concept="1TIwiD" id="hAcMNhShmd">
+    <property role="EcuMT" value="316997091368965517" />
+    <property role="3GE5qa" value="Expressions.Binary.Comparison" />
+    <property role="TrG5h" value="ComparisonBinaryExpression" />
+    <ref role="1TJDcQ" node="1TJtwuF1i8x" resolve="BinaryExpression" />
+  </node>
+  <node concept="1TIwiD" id="hAcMNhSilt">
+    <property role="EcuMT" value="316997091368969565" />
+    <property role="3GE5qa" value="Expressions.Binary.Comparison" />
+    <property role="TrG5h" value="GreaterBinaryExpression" />
+    <property role="34LRSv" value="&gt;" />
+    <ref role="1TJDcQ" node="hAcMNhShmd" resolve="ComparisonBinaryExpression" />
+  </node>
+  <node concept="1TIwiD" id="hAcMNhSkwS">
+    <property role="EcuMT" value="316997091368978488" />
+    <property role="3GE5qa" value="Expressions.Binary.Comparison" />
+    <property role="TrG5h" value="LessBinaryExpression" />
+    <property role="34LRSv" value="&lt;" />
+    <ref role="1TJDcQ" node="hAcMNhShmd" resolve="ComparisonBinaryExpression" />
+  </node>
+  <node concept="1TIwiD" id="hAcMNhSlBB">
+    <property role="EcuMT" value="316997091368983015" />
+    <property role="3GE5qa" value="Expressions.Binary.Comparison" />
+    <property role="TrG5h" value="EqualsBinaryExpression" />
+    <property role="34LRSv" value="==" />
+    <ref role="1TJDcQ" node="hAcMNhShmd" resolve="ComparisonBinaryExpression" />
+  </node>
+  <node concept="1TIwiD" id="hAcMNhSnyz">
+    <property role="EcuMT" value="316997091368990883" />
+    <property role="3GE5qa" value="Expressions.Unary" />
+    <property role="TrG5h" value="UnaryExpression" />
+    <ref role="1TJDcQ" node="3PwBR56fudn" resolve="Expression" />
+    <node concept="1TJgyj" id="hAcMNhSny$" role="1TKVEi">
+      <property role="IQ2ns" value="316997091368990884" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="var" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3PwBR56fudn" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="hAcMNhSp5v">
+    <property role="EcuMT" value="316997091368997215" />
+    <property role="3GE5qa" value="Expressions.Unary.Boolean" />
+    <property role="TrG5h" value="BooleanUnaryExpression" />
+    <ref role="1TJDcQ" node="hAcMNhSnyz" resolve="UnaryExpression" />
+  </node>
+  <node concept="1TIwiD" id="hAcMNhSp5w">
+    <property role="EcuMT" value="316997091368997216" />
+    <property role="3GE5qa" value="Expressions.Unary.Arithmetic" />
+    <property role="TrG5h" value="ArithmeticUnaryExpression" />
+    <ref role="1TJDcQ" node="hAcMNhSnyz" resolve="UnaryExpression" />
+  </node>
+  <node concept="1TIwiD" id="hAcMNhSp5x">
+    <property role="EcuMT" value="316997091368997217" />
+    <property role="3GE5qa" value="Expressions.Unary.Arithmetic" />
+    <property role="TrG5h" value="UnaryMinusExpression" />
+    <property role="34LRSv" value="-" />
+    <ref role="1TJDcQ" node="hAcMNhSp5w" resolve="ArithmeticUnaryExpression" />
+  </node>
+  <node concept="1TIwiD" id="hAcMNhSp5y">
+    <property role="EcuMT" value="316997091368997218" />
+    <property role="3GE5qa" value="Expressions.Unary.Boolean" />
+    <property role="TrG5h" value="NotUnaryExpression" />
+    <property role="34LRSv" value="!" />
+    <ref role="1TJDcQ" node="hAcMNhSp5v" resolve="BooleanUnaryExpression" />
+  </node>
 </model>
 
