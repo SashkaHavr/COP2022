@@ -819,7 +819,69 @@
     </node>
     <node concept="1YaCAy" id="2T4hcUneDOu" role="1YuTPh">
       <property role="TrG5h" value="ifStatement" />
-      <ref role="1YaFvo" to="2ho0:2T4hcUnezqu" resolve="IfStatement" />
+      <ref role="1YaFvo" to="2ho0:2T4hcUnezqu" resolve="AbstractIfStatement" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="2EO96kixIYG">
+    <property role="TrG5h" value="typeof_ElseIfStatement" />
+    <property role="3GE5qa" value="" />
+    <node concept="3clFbS" id="2EO96kixIYH" role="18ibNy">
+      <node concept="1Z5TYs" id="2EO96kixKwX" role="3cqZAp">
+        <node concept="mw_s8" id="2EO96kixKxl" role="1ZfhKB">
+          <node concept="2pJPEk" id="2EO96kixKxh" role="mwGJk">
+            <node concept="2pJPED" id="2EO96kixKxj" role="2pJPEn">
+              <ref role="2pJxaS" to="2ho0:60ka_aiofdF" resolve="BoolType" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="2EO96kixKx0" role="1ZfhK$">
+          <node concept="1Z2H0r" id="2EO96kixIYN" role="mwGJk">
+            <node concept="2OqwBi" id="2EO96kixKae" role="1Z2MuG">
+              <node concept="1YBJjd" id="2EO96kixJGi" role="2Oq$k0">
+                <ref role="1YBMHb" node="2EO96kixIYJ" resolve="elseIfStatement" />
+              </node>
+              <node concept="3TrEf2" id="2EO96kixKea" role="2OqNvi">
+                <ref role="3Tt5mk" to="2ho0:2EO96kixIXW" resolve="condition" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="2EO96kixIYJ" role="1YuTPh">
+      <property role="TrG5h" value="elseIfStatement" />
+      <ref role="1YaFvo" to="2ho0:2T4hcUniuwP" resolve="ElseIfStatement" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="2EO96ki_8kp">
+    <property role="TrG5h" value="typeof_WhileStatement" />
+    <property role="3GE5qa" value="Statements" />
+    <node concept="3clFbS" id="2EO96ki_8kq" role="18ibNy">
+      <node concept="1Z5TYs" id="2EO96ki_9cX" role="3cqZAp">
+        <node concept="mw_s8" id="2EO96ki_9dl" role="1ZfhKB">
+          <node concept="2pJPEk" id="2EO96ki_9dh" role="mwGJk">
+            <node concept="2pJPED" id="2EO96ki_9dj" role="2pJPEn">
+              <ref role="2pJxaS" to="2ho0:60ka_aiofdF" resolve="BoolType" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="2EO96ki_9d0" role="1ZfhK$">
+          <node concept="1Z2H0r" id="2EO96ki_8kw" role="mwGJk">
+            <node concept="2OqwBi" id="2EO96ki_8wd" role="1Z2MuG">
+              <node concept="1YBJjd" id="2EO96ki_8mq" role="2Oq$k0">
+                <ref role="1YBMHb" node="2EO96ki_8ks" resolve="whileStatement" />
+              </node>
+              <node concept="3TrEf2" id="2EO96ki_8U0" role="2OqNvi">
+                <ref role="3Tt5mk" to="2ho0:2EO96ki_8j0" resolve="condition" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="2EO96ki_8ks" role="1YuTPh">
+      <property role="TrG5h" value="whileStatement" />
+      <ref role="1YaFvo" to="2ho0:2EO96ki_8iZ" resolve="WhileStatement" />
     </node>
   </node>
 </model>
