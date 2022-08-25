@@ -1361,5 +1361,33 @@
       <ref role="1YaFvo" to="2ho0:5sdWrerXgUL" resolve="ReturnStatement" />
     </node>
   </node>
+  <node concept="1YbPZF" id="5sdWres0pTs">
+    <property role="TrG5h" value="typeof_FunctionParameter" />
+    <node concept="3clFbS" id="5sdWres0pTt" role="18ibNy">
+      <node concept="1Z5TYs" id="5sdWres0q9I" role="3cqZAp">
+        <node concept="mw_s8" id="5sdWres0qa0" role="1ZfhKB">
+          <node concept="2OqwBi" id="5sdWres0qk5" role="mwGJk">
+            <node concept="1YBJjd" id="5sdWres0q9Y" role="2Oq$k0">
+              <ref role="1YBMHb" node="5sdWres0pTv" resolve="functionParameter" />
+            </node>
+            <node concept="3TrEf2" id="5sdWres0r1a" role="2OqNvi">
+              <ref role="3Tt5mk" to="2ho0:2EO96kiAy_W" resolve="type" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="5sdWres0q9L" role="1ZfhK$">
+          <node concept="1Z2H0r" id="5sdWres0pTz" role="mwGJk">
+            <node concept="1YBJjd" id="5sdWres0pVt" role="1Z2MuG">
+              <ref role="1YBMHb" node="5sdWres0pTv" resolve="functionParameter" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="5sdWres0pTv" role="1YuTPh">
+      <property role="TrG5h" value="functionParameter" />
+      <ref role="1YaFvo" to="2ho0:2EO96kiAy_R" resolve="FunctionParameter" />
+    </node>
+  </node>
 </model>
 

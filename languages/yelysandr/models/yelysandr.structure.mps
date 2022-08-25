@@ -207,7 +207,7 @@
       <property role="IQ2ns" value="7393321506381665404" />
       <property role="20kJfa" value="variableDefinition" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="3PwBR56fudp" resolve="VariableDefinition" />
+      <ref role="20lvS9" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="6qqmFOi9YBN">

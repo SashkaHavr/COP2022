@@ -343,6 +343,18 @@
   </node>
   <node concept="SbwP3" id="5sdWrerZpBj">
     <property role="TrG5h" value="sum" />
+    <node concept="1VnnKC" id="5sdWres0pyo" role="SbwPc">
+      <property role="TrG5h" value="c" />
+      <node concept="3Mtd$Y" id="5sdWres0pym" role="mou9K" />
+      <node concept="2Pqy4i" id="5sdWres0pyT" role="3Mt1VS">
+        <node concept="1OIcV6" id="5sdWres0pzh" role="2Pq_gz">
+          <ref role="1OIcV1" node="5sdWrerZpKQ" resolve="b" />
+        </node>
+        <node concept="1OIcV6" id="5sdWres0pyE" role="2Pq_g_">
+          <ref role="1OIcV1" node="5sdWrerZpKN" resolve="a" />
+        </node>
+      </node>
+    </node>
     <node concept="3Mtd$T" id="5sdWres0nge" role="SbwP2" />
     <node concept="SbwOi" id="5sdWrerZpKN" role="SajAT">
       <property role="TrG5h" value="a" />
