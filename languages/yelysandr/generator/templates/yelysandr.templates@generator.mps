@@ -211,7 +211,7 @@
   </node>
   <node concept="312cEu" id="178fcaRefVj">
     <property role="TrG5h" value="functionalWorksheet_java" />
-    <property role="3GE5qa" value="Statements" />
+    <property role="3GE5qa" value="" />
     <node concept="2YIFZL" id="6qqmFOiaMkX" role="jymVt">
       <property role="TrG5h" value="main" />
       <node concept="3clFbS" id="6qqmFOiaMl1" role="3clF47">

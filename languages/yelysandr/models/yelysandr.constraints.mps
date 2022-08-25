@@ -123,20 +123,19 @@
       </node>
     </node>
   </node>
-  <node concept="1M2fIO" id="2EO96kiBjw_">
-    <property role="3GE5qa" value="Statements" />
-    <ref role="1M2myG" to="2ho0:2EO96kiAy$A" resolve="PureFunctionDefinition" />
-    <node concept="EnEH3" id="2EO96kiBjwA" role="1MhHOB">
+  <node concept="1M2fIO" id="5sdWrerKeS5">
+    <ref role="1M2myG" to="2ho0:5sdWrerKeIA" resolve="INamedConceptConstained" />
+    <node concept="EnEH3" id="5sdWrerKeS6" role="1MhHOB">
       <ref role="EomxK" to="tpck:h0TrG11" resolve="name" />
-      <node concept="QB0g5" id="2EO96kiBjxk" role="QCWH9">
-        <node concept="3clFbS" id="2EO96kiBjxl" role="2VODD2">
-          <node concept="3clFbF" id="2EO96kiBjA0" role="3cqZAp">
-            <node concept="2OqwBi" id="2EO96kiBk0g" role="3clFbG">
-              <node concept="1Wqviy" id="2EO96kiBj_Z" role="2Oq$k0" />
-              <node concept="liA8E" id="2EO96kiBk$S" role="2OqNvi">
+      <node concept="QB0g5" id="5sdWrerKeTw" role="QCWH9">
+        <node concept="3clFbS" id="5sdWrerKeTx" role="2VODD2">
+          <node concept="3clFbF" id="5sdWrerKeYc" role="3cqZAp">
+            <node concept="2OqwBi" id="5sdWrerKfos" role="3clFbG">
+              <node concept="1Wqviy" id="5sdWrerKeYb" role="2Oq$k0" />
+              <node concept="liA8E" id="5sdWrerKfSq" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
-                <node concept="Xl_RD" id="2EO96kiBk_V" role="37wK5m">
-                  <property role="Xl_RC" value="[a-z]+" />
+                <node concept="Xl_RD" id="5sdWrerKfTt" role="37wK5m">
+                  <property role="Xl_RC" value="(([A-Z]|[a-z])([A-Z]|[a-z]|[0-9])*)" />
                 </node>
               </node>
             </node>

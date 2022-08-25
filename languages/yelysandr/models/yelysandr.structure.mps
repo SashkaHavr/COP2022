@@ -18,6 +18,9 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ">
+        <child id="1169127546356" name="extends" index="PrDN$" />
+      </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -84,7 +87,7 @@
     <property role="3GE5qa" value="Statements" />
     <ref role="1TJDcQ" node="3PwBR56fudm" resolve="Statement" />
     <node concept="PrWs8" id="3PwBR56fudq" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+      <ref role="PrY4T" node="5sdWrerKeIA" resolve="INamedConceptConstained" />
     </node>
     <node concept="1TJgyj" id="60ka_aio3iE" role="1TKVEi">
       <property role="IQ2ns" value="6923205061306758314" />
@@ -206,7 +209,7 @@
   </node>
   <node concept="1TIwiD" id="6qqmFOi9YBN">
     <property role="EcuMT" value="7393321506382014963" />
-    <property role="3GE5qa" value="Statements" />
+    <property role="3GE5qa" value="" />
     <property role="TrG5h" value="FunctionalWorksheet" />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="Worksheet" />
@@ -219,7 +222,7 @@
       <ref role="20lvS9" node="178fcaRefU_" resolve="FunctionalScope" />
     </node>
     <node concept="PrWs8" id="6qqmFOi9YBQ" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+      <ref role="PrY4T" node="5sdWrerKeIA" resolve="INamedConceptConstained" />
     </node>
   </node>
   <node concept="1TIwiD" id="hAcMNhRnyF">
@@ -415,9 +418,8 @@
   </node>
   <node concept="1TIwiD" id="2EO96kiAy$A">
     <property role="EcuMT" value="3077124461923281190" />
-    <property role="3GE5qa" value="Statements" />
+    <property role="3GE5qa" value="" />
     <property role="TrG5h" value="PureFunctionDefinition" />
-    <property role="34LRSv" value="pure" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="1TJgyj" id="2EO96kiAy$B" role="1TKVEi">
@@ -430,9 +432,9 @@
     <node concept="1TJgyj" id="2EO96kiAy$D" role="1TKVEi">
       <property role="IQ2ns" value="3077124461923281193" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="scope" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="178fcaRefU_" resolve="FunctionalScope" />
+      <property role="20kJfa" value="statements" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="3PwBR56fudm" resolve="Statement" />
     </node>
     <node concept="1TJgyj" id="2EO96kiAy$G" role="1TKVEi">
       <property role="IQ2ns" value="3077124461923281196" />
@@ -449,7 +451,10 @@
       <ref role="20lvS9" node="2EO96kiAy_R" resolve="FunctionParameter" />
     </node>
     <node concept="PrWs8" id="2EO96kiAy_y" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+      <ref role="PrY4T" node="5sdWrerKeIA" resolve="INamedConceptConstained" />
+    </node>
+    <node concept="PrWs8" id="5sdWrerMaxZ" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="2EO96kiAy_R">
@@ -457,7 +462,7 @@
     <property role="TrG5h" value="FunctionParameter" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="PrWs8" id="2EO96kiAy_U" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+      <ref role="PrY4T" node="5sdWrerKeIA" resolve="INamedConceptConstained" />
     </node>
     <node concept="1TJgyj" id="2EO96kiAy_W" role="1TKVEi">
       <property role="IQ2ns" value="3077124461923281276" />
@@ -465,6 +470,20 @@
       <property role="20kJfa" value="type" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="60ka_aiofdE" resolve="Type" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="5sdWrerKeIA">
+    <property role="EcuMT" value="6272935609711520678" />
+    <property role="TrG5h" value="INamedConceptConstained" />
+    <node concept="PrWs8" id="5sdWrerKeS1" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="5sdWrerPU_3">
+    <property role="EcuMT" value="6272935609713011011" />
+    <property role="TrG5h" value="INamedConceptDuplicateCheck" />
+    <node concept="PrWs8" id="5sdWrerPUIu" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>

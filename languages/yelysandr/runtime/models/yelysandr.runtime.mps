@@ -20,6 +20,15 @@
         <child id="3077124461922911424" name="condition" index="S8a2_" />
         <child id="3077124461922911426" name="scope" index="S8a2B" />
       </concept>
+      <concept id="3077124461923281271" name="yelysandr.structure.FunctionParameter" flags="ng" index="SbwOi">
+        <child id="3077124461923281276" name="type" index="SbwOp" />
+      </concept>
+      <concept id="3077124461923281190" name="yelysandr.structure.PureFunctionDefinition" flags="ng" index="SbwP3">
+        <child id="3077124461923474908" name="parameters" index="SajAT" />
+        <child id="3077124461923281191" name="returnType" index="SbwP2" />
+        <child id="3077124461923281196" name="returnExpression" index="SbwP9" />
+        <child id="3077124461923281193" name="statements" index="SbwPc" />
+      </concept>
       <concept id="3333865278253164597" name="yelysandr.structure.ElseIfStatement" flags="ng" index="2T3qNV">
         <child id="3077124461922021244" name="condition" index="ScGGp" />
         <child id="3077124461922021242" name="scope" index="ScGGv" />
@@ -51,6 +60,7 @@
       <concept id="4422710142936414059" name="yelysandr.structure.BoolLiteral" flags="ng" index="1Vnmwq">
         <property id="6923205061307212261" name="value" index="3MsKIR" />
       </concept>
+      <concept id="4422710142936408919" name="yelysandr.structure.Expression" flags="ng" index="1VnnKA" />
       <concept id="4422710142936408921" name="yelysandr.structure.VariableDefinition" flags="ng" index="1VnnKC">
         <child id="2147128200997487561" name="declaredType" index="mou9K" />
         <child id="6923205061306758314" name="value" index="3Mt1VS" />
@@ -305,6 +315,57 @@
         </node>
       </node>
       <node concept="1VnH6g" id="2EO96kizsbH" role="2AWc9_" />
+      <node concept="1VnH6g" id="5sdWrerNR8N" role="2AWc9_" />
+      <node concept="1VnH6g" id="5sdWrerNRao" role="2AWc9_" />
+    </node>
+  </node>
+  <node concept="SbwP3" id="5sdWrerJcDz">
+    <property role="TrG5h" value="func" />
+    <node concept="3Mtd$Y" id="5sdWrerJcWr" role="SbwP2" />
+    <node concept="1VnnKA" id="5sdWrerJcDA" role="SbwP9" />
+    <node concept="SbwOi" id="5sdWrerKbtc" role="SajAT">
+      <property role="TrG5h" value="aasdasd" />
+      <node concept="3Mtd$Y" id="5sdWrerKbtb" role="SbwOp" />
+    </node>
+    <node concept="SbwOi" id="5sdWrerLh9j" role="SajAT">
+      <property role="TrG5h" value="b" />
+      <node concept="3Mtd$T" id="5sdWrerLh9p" role="SbwOp" />
+    </node>
+    <node concept="SbwOi" id="5sdWrerLh9s" role="SajAT">
+      <property role="TrG5h" value="a" />
+      <node concept="3Mtd$T" id="5sdWrerLh9E" role="SbwOp" />
+    </node>
+    <node concept="1VnnKC" id="5sdWrerOHEw" role="SbwPc">
+      <property role="TrG5h" value="b" />
+      <node concept="3Mtd$Y" id="5sdWrerOHEv" role="mou9K" />
+      <node concept="1VnnKH" id="5sdWrerOHEG" role="3Mt1VS">
+        <property role="3MsKIx" value="3" />
+      </node>
+    </node>
+    <node concept="1VnnKC" id="5sdWrerP$pg" role="SbwPc">
+      <property role="TrG5h" value="c" />
+      <node concept="3Mtd$Y" id="5sdWrerP$pe" role="mou9K" />
+      <node concept="1VnnKH" id="5sdWrerP$pv" role="3Mt1VS">
+        <property role="3MsKIx" value="2" />
+      </node>
+    </node>
+    <node concept="2Pqy4i" id="5sdWrerP$q2" role="SbwPc">
+      <node concept="1VnnKH" id="5sdWrerP$qq" role="2Pq_gz">
+        <property role="3MsKIx" value="2" />
+      </node>
+      <node concept="1VnnKH" id="5sdWrerP$pO" role="2Pq_g_">
+        <property role="3MsKIx" value="3" />
+      </node>
+    </node>
+    <node concept="1VnH6g" id="5sdWrerP$qD" role="SbwPc" />
+    <node concept="1VnH6g" id="5sdWrerP$qO" role="SbwPc" />
+    <node concept="3lx_g5" id="5sdWrerP$rZ" role="SbwPc">
+      <node concept="1Vnmwq" id="5sdWrerP$sG" role="2Pq_gz">
+        <property role="3MsKIR" value="false" />
+      </node>
+      <node concept="1Vnmwq" id="5sdWrerP$rD" role="2Pq_g_">
+        <property role="3MsKIR" value="true" />
+      </node>
     </node>
   </node>
 </model>
