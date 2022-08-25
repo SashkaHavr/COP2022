@@ -89,6 +89,9 @@
     <node concept="PrWs8" id="3PwBR56fudq" role="PzmwI">
       <ref role="PrY4T" node="5sdWrerKeIA" resolve="INamedConceptConstained" />
     </node>
+    <node concept="PrWs8" id="5sdWrerPY3Z" role="PzmwI">
+      <ref role="PrY4T" node="5sdWrerPU_3" resolve="INamedConceptDuplicateCheck" />
+    </node>
     <node concept="1TJgyj" id="60ka_aio3iE" role="1TKVEi">
       <property role="IQ2ns" value="6923205061306758314" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -464,6 +467,9 @@
     <node concept="PrWs8" id="2EO96kiAy_U" role="PzmwI">
       <ref role="PrY4T" node="5sdWrerKeIA" resolve="INamedConceptConstained" />
     </node>
+    <node concept="PrWs8" id="5sdWrerPXUy" role="PzmwI">
+      <ref role="PrY4T" node="5sdWrerPU_3" resolve="INamedConceptDuplicateCheck" />
+    </node>
     <node concept="1TJgyj" id="2EO96kiAy_W" role="1TKVEi">
       <property role="IQ2ns" value="3077124461923281276" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -484,6 +490,25 @@
     <property role="TrG5h" value="INamedConceptDuplicateCheck" />
     <node concept="PrWs8" id="5sdWrerPUIu" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5sdWrerQ7Jx">
+    <property role="EcuMT" value="6272935609713064929" />
+    <property role="3GE5qa" value="Expressions" />
+    <property role="TrG5h" value="FunctionReference" />
+    <ref role="1TJDcQ" node="3PwBR56fudn" resolve="Expression" />
+    <node concept="1TJgyj" id="5sdWrerQ7SW" role="1TKVEi">
+      <property role="IQ2ns" value="6272935609713065532" />
+      <property role="20kJfa" value="functionDefinition" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2EO96kiAy$A" resolve="PureFunctionDefinition" />
+    </node>
+    <node concept="1TJgyj" id="5sdWrerR4Xv" role="1TKVEi">
+      <property role="IQ2ns" value="6272935609713315679" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="parameters" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="3PwBR56fudn" resolve="Expression" />
     </node>
   </node>
 </model>
