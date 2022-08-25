@@ -38,6 +38,7 @@
         <child id="3333865278252142692" name="condition" index="2TvxiE" />
         <child id="3333865278252136697" name="scope" index="2TvBKR" />
       </concept>
+      <concept id="957472439087356086" name="yelysandr.structure.NotEqualsBinaryExpression" flags="ng" index="1bjJyE" />
       <concept id="6272935609713064929" name="yelysandr.structure.FunctionReference" flags="ng" index="3cPoDi">
         <reference id="6272935609713065532" name="functionDefinition" index="3cPoYf" />
         <child id="6272935609713315679" name="parameters" index="3cOrVG" />
@@ -361,6 +362,19 @@
           </node>
           <node concept="1VnnKH" id="5sdWres2wyq" role="3cOrVG">
             <property role="3MsKIx" value="2" />
+          </node>
+        </node>
+      </node>
+      <node concept="1VnH6g" id="P9C1L61VjO" role="2AWc9_" />
+      <node concept="1VnnKC" id="P9C1L61VnV" role="2AWc9_">
+        <property role="TrG5h" value="asdlk" />
+        <node concept="3Mtd$T" id="P9C1L61VnT" role="mou9K" />
+        <node concept="1bjJyE" id="P9C1L62gxS" role="3Mt1VS">
+          <node concept="1VnnKH" id="P9C1L62gye" role="2Pq_gz">
+            <property role="3MsKIx" value="2" />
+          </node>
+          <node concept="1VnnKH" id="P9C1L61Vzq" role="2Pq_g_">
+            <property role="3MsKIx" value="1" />
           </node>
         </node>
       </node>
