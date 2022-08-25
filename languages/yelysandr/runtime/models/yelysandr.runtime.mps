@@ -38,6 +38,10 @@
         <child id="3333865278252142692" name="condition" index="2TvxiE" />
         <child id="3333865278252136697" name="scope" index="2TvBKR" />
       </concept>
+      <concept id="6272935609713064929" name="yelysandr.structure.FunctionReference" flags="ng" index="3cPoDi">
+        <reference id="6272935609713065532" name="functionDefinition" index="3cPoYf" />
+        <child id="6272935609713315679" name="parameters" index="3cOrVG" />
+      </concept>
       <concept id="6272935609714937521" name="yelysandr.structure.ReturnStatement" flags="ng" index="3cYfW2">
         <child id="6272935609714938127" name="expression" index="3cYe2W" />
       </concept>
@@ -339,6 +343,27 @@
           <property role="3MsKIR" value="false" />
         </node>
       </node>
+      <node concept="1VnH6g" id="5sdWres2wrZ" role="2AWc9_" />
+      <node concept="1VnnKC" id="5sdWres5LMa" role="2AWc9_">
+        <property role="TrG5h" value="funcTest1" />
+        <node concept="3Mtd$Y" id="5sdWres5LM8" role="mou9K" />
+        <node concept="3cPoDi" id="5sdWres5MpN" role="3Mt1VS">
+          <ref role="3cPoYf" node="5sdWres2xgN" resolve="sum1" />
+        </node>
+      </node>
+      <node concept="1VnnKC" id="5sdWres2wvO" role="2AWc9_">
+        <property role="TrG5h" value="funcTest" />
+        <node concept="3Mtd$T" id="5sdWres2wvM" role="mou9K" />
+        <node concept="3cPoDi" id="5sdWres2wxN" role="3Mt1VS">
+          <ref role="3cPoYf" node="5sdWrerZpBj" resolve="sum" />
+          <node concept="1VnnKH" id="5sdWres2wxZ" role="3cOrVG">
+            <property role="3MsKIx" value="3" />
+          </node>
+          <node concept="1VnnKH" id="5sdWres2wyq" role="3cOrVG">
+            <property role="3MsKIx" value="2" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="SbwP3" id="5sdWrerZpBj">
@@ -367,6 +392,15 @@
     <node concept="3cYfW2" id="5sdWres0neB" role="SbwPc">
       <node concept="1Vnmwq" id="5sdWres0nfs" role="3cYe2W">
         <property role="3MsKIR" value="false" />
+      </node>
+    </node>
+  </node>
+  <node concept="SbwP3" id="5sdWres2xgN">
+    <property role="TrG5h" value="sum1" />
+    <node concept="3Mtd$Y" id="5sdWres5Lbx" role="SbwP2" />
+    <node concept="3cYfW2" id="5sdWres2xqu" role="SbwPc">
+      <node concept="1VnnKH" id="5sdWres5Lgs" role="3cYe2W">
+        <property role="3MsKIx" value="3" />
       </node>
     </node>
   </node>
