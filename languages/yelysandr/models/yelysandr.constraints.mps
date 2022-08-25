@@ -44,6 +44,8 @@
       </concept>
     </language>
     <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
+      <concept id="6702802731807351367" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAChild" flags="in" index="9S07l" />
+      <concept id="1202989658459" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_parentNode" flags="nn" index="nLn13" />
       <concept id="1147467115080" name="jetbrains.mps.lang.constraints.structure.NodePropertyConstraint" flags="ng" index="EnEH3">
         <reference id="1147467295099" name="applicableProperty" index="EomxK" />
         <child id="1212097481299" name="propertyValidator" index="QCWH9" />
@@ -54,6 +56,7 @@
       </concept>
       <concept id="1213093968558" name="jetbrains.mps.lang.constraints.structure.ConceptConstraints" flags="ng" index="1M2fIO">
         <reference id="1213093996982" name="concept" index="1M2myG" />
+        <child id="6702802731807737306" name="canBeChild" index="9Vyp8" />
         <child id="1213098023997" name="property" index="1MhHOB" />
         <child id="1213100494875" name="referent" index="1Mr941" />
       </concept>
@@ -62,6 +65,14 @@
         <child id="1148687345559" name="searchScopeFactory" index="1N6uqs" />
       </concept>
       <concept id="1153138554286" name="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_propertyValue" flags="nn" index="1Wqviy" />
+    </language>
+    <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
+        <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
+      </concept>
+      <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
+        <child id="1177027386292" name="conceptArgument" index="cj9EA" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -137,6 +148,24 @@
                 <node concept="Xl_RD" id="5sdWrerKfTt" role="37wK5m">
                   <property role="Xl_RC" value="(([A-Z]|[a-z])([A-Z]|[a-z]|[0-9])*)" />
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="5sdWrerXh4e">
+    <property role="3GE5qa" value="Statements" />
+    <ref role="1M2myG" to="2ho0:5sdWrerXgUL" resolve="ReturnStatement" />
+    <node concept="9S07l" id="5sdWrerXhcf" role="9Vyp8">
+      <node concept="3clFbS" id="5sdWrerXhcg" role="2VODD2">
+        <node concept="3clFbF" id="5sdWrerXhcB" role="3cqZAp">
+          <node concept="2OqwBi" id="5sdWrerXhns" role="3clFbG">
+            <node concept="nLn13" id="5sdWrerXhcA" role="2Oq$k0" />
+            <node concept="1mIQ4w" id="5sdWrerXhB_" role="2OqNvi">
+              <node concept="chp4Y" id="5sdWrerXhHE" role="cj9EA">
+                <ref role="cht4Q" to="2ho0:2EO96kiAy$A" resolve="PureFunctionDefinition" />
               </node>
             </node>
           </node>
