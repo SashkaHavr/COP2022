@@ -38,6 +38,8 @@
         <child id="3333865278252142692" name="condition" index="2TvxiE" />
         <child id="3333865278252136697" name="scope" index="2TvBKR" />
       </concept>
+      <concept id="957472439087572316" name="yelysandr.structure.GreaterEqualsExpression" flags="ng" index="1bgKl0" />
+      <concept id="957472439087572919" name="yelysandr.structure.LessEqualsExpression" flags="ng" index="1bgKuF" />
       <concept id="957472439087356086" name="yelysandr.structure.NotEqualsBinaryExpression" flags="ng" index="1bjJyE" />
       <concept id="6272935609713064929" name="yelysandr.structure.FunctionReference" flags="ng" index="3cPoDi">
         <reference id="6272935609713065532" name="functionDefinition" index="3cPoYf" />
@@ -313,8 +315,8 @@
       </node>
       <node concept="1VnH6g" id="2EO96kiAydF" role="2AWc9_" />
       <node concept="S8a3q" id="2EO96kiAygQ" role="2AWc9_">
-        <node concept="1Vnmwq" id="2EO96kiAyj3" role="S8a2_">
-          <property role="3MsKIR" value="true" />
+        <node concept="1OIcV6" id="P9C1L62Xcr" role="S8a2_">
+          <ref role="1OIcV1" node="6qqmFOiaIRH" resolve="t" />
         </node>
         <node concept="2AWc9B" id="2EO96kiAygU" role="S8a2B">
           <node concept="3lxBzD" id="2EO96kiAyjy" role="2AWc9_">
@@ -375,6 +377,31 @@
           </node>
           <node concept="1VnnKH" id="P9C1L61Vzq" role="2Pq_g_">
             <property role="3MsKIx" value="1" />
+          </node>
+        </node>
+      </node>
+      <node concept="1VnH6g" id="P9C1L62VCc" role="2AWc9_" />
+      <node concept="1VnnKC" id="P9C1L62VG_" role="2AWc9_">
+        <property role="TrG5h" value="lessEq" />
+        <node concept="3Mtd$T" id="P9C1L62VGz" role="mou9K" />
+        <node concept="1bgKuF" id="P9C1L62VIX" role="3Mt1VS">
+          <node concept="1VnnKH" id="P9C1L62VJj" role="2Pq_gz">
+            <property role="3MsKIx" value="2" />
+          </node>
+          <node concept="1VnnKH" id="P9C1L62VIM" role="2Pq_g_">
+            <property role="3MsKIx" value="3" />
+          </node>
+        </node>
+      </node>
+      <node concept="1VnnKC" id="P9C1L62VLY" role="2AWc9_">
+        <property role="TrG5h" value="greaterEq" />
+        <node concept="3Mtd$T" id="P9C1L62VYX" role="mou9K" />
+        <node concept="1bgKl0" id="P9C1L62VOq" role="3Mt1VS">
+          <node concept="1VnnKH" id="P9C1L62VOK" role="2Pq_gz">
+            <property role="3MsKIx" value="2" />
+          </node>
+          <node concept="1VnnKH" id="P9C1L62VOf" role="2Pq_g_">
+            <property role="3MsKIx" value="5" />
           </node>
         </node>
       </node>
